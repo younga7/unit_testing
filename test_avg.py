@@ -11,10 +11,10 @@ class TestCube(unittest.TestCase):
     def test_one(self):
         self.assertEqual(HW4.avg([]), "Zero Division")
         self.assertEqual(HW4.avg([-5]), -5)
-        self.assertEqual(HW4.avg(0), "Type Error")
+        self.assertEqual(HW4.avg([5]), 5)
     def test_two(self):
         self.assertEqual(HW4.avg('five'), "Type Error")
-        self.assertEqual(HW4.avg([5]), 5)
+        self.assertEqual(HW4.avg(0), "Type Error")
         self.assertEqual(HW4.avg('0'), "Type Error")
     def test_three(self):
         self.assertEqual(HW4.avg([1,3]), 2)
