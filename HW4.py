@@ -1,7 +1,7 @@
 # CS362 HW4
 # Alex Young
 # 2/2/2021
-# Run this file using python3 cube.py
+# Run this file using python3 HW4.py
 # This program holds funtions to
 # find the volume of a cube,
 # find average of elements in a list,

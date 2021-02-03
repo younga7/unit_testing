@@ -1,6 +1,11 @@
+# CS362 test_cube
+# Alex Young
+# 2/2/2021
+# Run this file using python3 test_cube.py
+# This program holds funtions to unit test for the cube function in HW4
+
 import unittest
 import HW4
-import cmath
 
 class TestCube(unittest.TestCase):
     def test_one(self):

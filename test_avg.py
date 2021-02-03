@@ -1,3 +1,9 @@
+# CS362 test_avg
+# Alex Young
+# 2/2/2021
+# Run this file using python3 test_avg.py
+# This program holds funtions to unit test for the avg function in HW4
+
 import unittest
 import HW4
 
