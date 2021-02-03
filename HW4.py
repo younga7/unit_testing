@@ -12,6 +12,11 @@ def cube(x):
         n = pow(x, 3)
     except TypeError:
         return("Type Error")
+    try:
+        if (n < 0):
+            return("Negative Edge Length")
+    except:
+        return("Complex Edge Length")
     return n
 
 def avg(x):
@@ -23,7 +28,7 @@ def avg(x):
         return("Zero Division")
     return n
 
-def name(x,y):
+def name(x, y):
     try:
         z = x + " " + y
     except TypeError:
